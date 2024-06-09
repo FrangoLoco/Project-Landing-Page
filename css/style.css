@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+header, footer, .Hero{
+    background-color: #1f2937;
+}
+
+.Hero, header{
+    color: #E5E7EB;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.Logo{
+    font-size: 24px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+ul{
+    display: flex;
+    gap: 12px;
+}
+
+.Hero .main-text{
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.main-text{
+    color:  #F9FAF8;
+}
+
+.Hero{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 450px;
+}
+
+.image-container img{
+    height: 350px;
+    margin: 40px;
+}
+
+.secondary-text  nav{
+    font-size: 18px;
+}
+
+.secondary-text{
+    color: #E5E7EB
+}
+
+ul, a{
+    list-style: none;
+    text-decoration: none;
+    color:#E5E7EB ;
+}
+
+body{
+    font-family: "roboto";
+    margin: 0;
+    box-sizing: border-box;
+}
+
+p{
+    margin: 0;
+}
+
+.Sing-up{
+    background-color: #3882FC;
+    color: #F9FAF8;
+    font-size: medium;
+    font-weight: bold;
+    border: 8px none;
+    border-radius: 6px;
+    padding:8px  28px ;
+    margin-top: 4px;
+}
+
+.information-header-text{
+    font-size: 38px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin: 40px;
+}
+
+.random-information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+}
+
+.information-images{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 200px;
+}
+
+.information-images img{
+    height: 200px;
+    width: 200px;
+    border-radius: 6px;
+    margin-bottom: 5px; ;
+}
+
+.information-images-container{
+    display: flex;
+    gap:60px;
+}
+
+.quote-section{
+    background-color:#E5E7EB;
+    font-style: italic;
+    font-weight: 300;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px 400px;
+    box-sizing: border-box;
+}
+
+.quote{
+    font-size: 36px;
+}
+
+.autor{
+    font-weight: 600;
+    text-align: end;
+}
+
+.call-to-action{
+    background-color: #3882FC;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-around;
+    height: 125px;
+    width: 850px;
+}
+
+.container-call-to-action{
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action .Sing-up{
+    border: #F9FAF8 solid 2px;
+}
+
+.call-to-action .main-text{
+    font-weight: 600;
+    font-size: larger;
+}
+
+.content-call-to-action{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.button{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+footer{
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 26px;
+}
+
